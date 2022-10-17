@@ -1,11 +1,14 @@
-valeur1 = int(input("1ère valeur : "))
-valeur2 = int(input("2ème valeur : "))
+x = True
 
-if valeur1 == valeur2:
-    print("Les deux valeurs sont égales")
-elif valeur1 < valeur2:
-    for i in range(valeur1 +1 , valeur2):
-        print(i)
-else:
-    for i in range(valeur1 -1, valeur2, -1):
-        print(i)
+while x:
+	y = input("> ")
+
+	if y == "Bonjour":
+		print ("Bonjour à toi")
+
+	elif y == "Au revoir":
+		x = False
+	else:
+        
+
+		print ("Veuillez écrire Bonjour ou Au revoir")
